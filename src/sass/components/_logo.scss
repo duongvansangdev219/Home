@@ -1,0 +1,22 @@
+#logo{
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+.logo{
+    color:var(--light);
+    padding-left:28px;
+    display: flex;
+    padding-top: 5px 10px;
+    // flex:1;
+    cursor: pointer;
+    font-size: 20px;
+    a{
+        margin-left: 20px;
+        font-weight: 500;
+        color:var(--light);
+    }
+    img{
+        margin:10 10px 10px 0px;
+    }
+}

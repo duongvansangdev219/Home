@@ -1,0 +1,60 @@
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color:var(--light);
+    margin: 5px 0;
+    transition: 0.4s;
+} 
+.sidenav{
+    position:pixed;
+    top: 0px;
+    left: 0;
+    overflow: hidden; 
+    background-color:var(--light);
+    color: yellow;
+    .Weekly a{
+        font-weight: 600;
+        color:black;
+    }
+    .order, .reoder, .list, .walmart, .Credit, .Location, .Local, .Cards, .weekly, .Help{
+        display: flex;
+      img{
+          margin-left: 30px;
+          width: 20px;
+          height: 22px;
+          margin-top: 10px;
+      }
+      a{
+        color: black;
+      }
+    }
+  }        
+  .sidenav a {
+    padding: 8px 8px 8px 28px;
+    font-size: 14px;  
+    font-weight: 400;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px;
+  }
+  .sidenav a:hover {
+    text-decoration:underline;
+  }
+  .sidenav .closebtn {
+    overflow: visible;      
+  }   
+  .sidenav_top{
+    width: 100%;
+    height: 50px;    
+    overflow-y: visible;  
+    background-color:var(--blue_3);           
+    a{
+        font-size: 50px;  
+        color: var(--black);
+    }
+  }    
+  .sidenav-bottom{
+    width: 100%;
+    height: 1000px;   
+    overflow-y: auto;        
+  }     

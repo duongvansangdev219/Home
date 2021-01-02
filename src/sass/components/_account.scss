@@ -1,0 +1,59 @@
+.account_cart{     
+    .btn{      
+        .mySidenav_right{
+            top: 0;
+            right: 0;
+            overflow-x: hidden;
+            padding:23px 0; 
+                img{
+                    width: 20%;
+                }
+                a{
+                    font-weight:500;
+                    color: black;
+                    margin-top: 7px;
+                }
+            .Credit{    
+                display:flex;
+                margin-left: 20px;
+                margin-top:30px;
+                img{
+                    width: 10%;
+                    display:flex;
+                }
+                a{
+                    color: black;
+                    margin-left: 20px;
+                }
+            }                         
+        }    
+        .ion{
+            display: flex;
+        }
+        .account{
+            background-color:var(--blue_3);
+            font-size: 20px;
+        }
+        .account i,a,
+        .cart i{
+            color:var(--light);
+        }            
+        .account, .cart{
+            border: 1px solid var(--blue_3);
+        }
+        .cart{
+            font-size: 20px;   
+            background-color:var(--blue_3);           
+        }
+        .notification .badge{
+            font-size: 10px;
+            position: relative;
+            left:-1px;
+            bottom: 15px;
+            border-radius: 50%;
+            padding: 5px 10px;
+            background-color: var(--yellow_1);
+            color: black;
+        }
+    }    
+}
