@@ -1,0 +1,59 @@
+.write_review{
+    text-align:left; 
+    padding:0 50px;
+    display:flex;
+        button{
+            outline: none;
+            cursor: pointer;
+            background-color: #0071dc;
+            margin-bottom:20px;
+            color: white;
+            padding: 15px;
+            border-radius: 20px;
+            font-weight:800;
+            margin-left: 20px;
+            border: 1px solid  #0071dc;
+            &:hover {
+                background: none;
+                color:#0071dc;
+            }
+        }
+}
+.write_review-comment{
+    // display: flex;
+    line-height: 30px;
+    overflow: hidden;
+    display:none;
+    margin: 30px 0 0 30px;
+    .images_user img{
+        width: 40px;
+        height: 40px;
+        border-radius:50%;
+        background-color:#b88282;
+        i{
+            margin:10px;
+            color:blue;
+        }
+    }
+    .content-comment{
+        position: relative;
+        top:-40px;
+        left: 60px;
+        input{
+            width: 100%;
+            margin-top:20px;
+            border:none;
+            border-bottom: 1px solid rgb(124, 119, 119);
+            outline:none;
+        }
+        
+    }
+    .like, i{
+        position: relative;
+        top: -80px;
+        float:right;
+        font-size:20px;
+        color: #0071dc;
+    }
+}
+

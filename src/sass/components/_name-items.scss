@@ -1,0 +1,120 @@
+.item_detail{
+      p{
+        margin-top:10px;
+      }
+      .price{
+        h4{
+          text-decoration: line-through;
+        }
+      }
+      .size{
+        display: flex;
+        margin-bottom: 20px;
+          .button{
+            border: 1px solid black;
+            margin: 5px;
+            padding: 10px 35px;
+          }
+      }
+}
+.select{
+  select{
+      padding:5px;
+  }
+  button{
+      margin-left: 10px;
+      border: 1px solid blue;
+      background:blue;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color:white;
+      outline: none;
+      box-shadow: 0 9px #999;
+      &:hover {
+          background:rgb(86, 86, 241);
+      }
+      &:active {
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+      }
+  }
+}
+@media (max-width:1024px){
+  .body .body_top{
+    margin-top:100px;
+  }
+  .itemprop{
+    .item_product .column{
+      width: 60%;
+    }
+  }
+  .item_detail{
+    .size{
+        .button{
+          border: 1px solid black;
+          margin: 5px;
+          padding: 10px 25px;
+          font-size:12px;
+        }
+    }
+  }
+}
+@media(max-width:768px){
+  .item_product{
+      display:block;
+      .column{
+        width: 60%;
+        margin-left: 0;
+      }
+  }
+  .itemprop{
+    display: flex;
+    flex-direction:row;
+  }
+  .container_slides{
+    margin:0 0 0 60px;
+    .mySlides {
+        display: none;
+        width: 70%;
+      }
+}
+  .item_detail{
+    margin-right: 40px;
+    h2{
+      font-size:19px;
+    }
+    .size{
+        .button{
+            padding: 5px 15px;
+            font-size:10px;
+          }
+    }
+    .price{
+      display:flex;
+      flex-direction: column;
+    }
+    .select{
+      #btn_buy{
+          margin-left: 20px;
+          border: 1px solid blue;
+          background:blue;
+          padding: 5px 15px;
+          border-radius: 30px;
+      }
+    }
+  }
+}
+@media (max-width:500px){
+  .item_detail{
+    position: absolute;
+    width: 50%;
+    top: 500px;
+    left: 20px;
+  }
+  .body_top{
+    padding-top:400px;
+  }
+  .rating_product{
+    padding-top:350px;
+  }
+}

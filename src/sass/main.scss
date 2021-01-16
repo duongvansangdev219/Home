@@ -1,9 +1,15 @@
 @import 'layout/header';
 @import 'layout/body';
-@import 'abstract/variables';
+@import 'pages/home';
+@import 'abstract/slides';
+@import 'abstract/slides-home';
 @import 'components/menu';
 @import 'components/logo';
 @import 'components/input';
 @import 'components/account';
-@import 'components/_product-orther';
+@import 'components/product-orther';
+@import 'components/rating';
+@import 'components/name-items';
+@import 'components/comment';
+
 

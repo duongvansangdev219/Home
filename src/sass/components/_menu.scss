@@ -1,7 +1,7 @@
 .bar1, .bar2, .bar3 {
     width: 20px;
     height: 3px;
-    background-color:var(--light);
+    background-color:white;
     margin: 5px 0;
     transition: 0.4s;
 } 
@@ -10,7 +10,7 @@
     top: 0px;
     left: 0;
     overflow: hidden; 
-    background-color:var(--light);
+    background-color:white;
     color: yellow;
     .Weekly a{
         font-weight: 600;
@@ -47,10 +47,10 @@
     width: 100%;
     height: 50px;    
     overflow-y: visible;  
-    background-color:var(--blue_3);           
+    background-color:#041e42;           
     a{
         font-size: 50px;  
-        color: var(--black);
+        color:#ffc220;
     }
   }    
   .sidenav-bottom{

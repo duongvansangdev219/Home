@@ -2,7 +2,9 @@
     .btn_menu-left, .btn_menu-right{
         outline: none;
         position: relative;
+        border:none;
         padding:10px 20px;
+        background:#ffc220;
         cursor: pointer;
     }
     .btn_menu-left{          
@@ -44,7 +46,8 @@
         width:500px;
         border:none;
         margin-bottom: 20px;
-        height: 39px;
+        height: 38px;
+        outline: none;
         color:var(--dark_2);
     }
     button{
@@ -60,14 +63,18 @@
         right:5px;       
     }
 }
-@media (max-width:984px){
+@media (max-width:1024px){
     input{
         max-width: 200px;
     }
+    .dropdown-content {
+        max-width:500px;  
+    }
+     
 }
-@media (max-width:704px){
+@media (max-width:768px){
     input{
-        max-width:80px;
+        max-width:180px;
     }
     .account, .logo a{
         display:none;
@@ -75,4 +82,44 @@
     .menu_input .button{
         background:white;
     }
+    .dropdown-content {
+
+        max-width:320px;  
+        h2{
+            font-size:15px;
+        }
+        p{
+            font-size:5px;
+        }
+    }
+}
+@media(max-width:500px){ 
+    .menu_input{
+        .btn_menu-left, .btn_menu-right{
+            outline: none;
+            position: relative;
+            padding:6px 13px;
+            background:#ffc220;
+            border: none;
+            cursor: pointer;
+        }
+        input{
+            max-width:100px;
+            height: 30px;   
+            input:read-only {
+                background-color: yellow;
+              }
+        }
+       
+        .dropdown-content{ 
+            max-width:320px;  
+            h2{
+                font-size:13px;
+            }
+            p{
+                font-size:2px;
+            }
+        }
+    }
+    
 }

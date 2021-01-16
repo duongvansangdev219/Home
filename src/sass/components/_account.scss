@@ -1,59 +1,64 @@
-.account_cart{     
-    .btn{      
+.account_cart{    
+    .btn{   
         .mySidenav_right{
             top: 0;
             right: 0;
             overflow-x: hidden;
             padding:23px 0; 
                 img{
-                    width: 20%;
+                    margin-left: 20px;
+                    width: 15%;
                 }
                 a{
                     font-weight:500;
                     color: black;
-                    margin-top: 7px;
+                    margin: 4px;
                 }
             .Credit{    
                 display:flex;
-                margin-left: 20px;
+                margin-left: 10px;
                 margin-top:30px;
                 img{
-                    width: 10%;
-                    display:flex;
+                    width: 8%;
+                    height: 8%;
+                   
                 }
                 a{
+                    font-size: 13px;
+                    font-weight: 400;
                     color: black;
-                    margin-left: 20px;
+                    margin:0 20px ;
                 }
             }                         
         }    
         .ion{
             display: flex;
-        }
+        }   
         .account{
-            background-color:var(--blue_3);
+            background-color:#041e42;
             font-size: 20px;
         }
         .account i,a,
         .cart i{
-            color:var(--light);
+            color:white;
         }            
         .account, .cart{
-            border: 1px solid var(--blue_3);
+            border: 1px solid #041e42;
+            margin-left: 10px;
         }
         .cart{
+            height: 10px;
             font-size: 20px;   
-            background-color:var(--blue_3);           
+            background-color:#041e42;           
         }
         .notification .badge{
             font-size: 10px;
             position: relative;
-            left:-1px;
-            bottom: 15px;
+            left:17px;
+            bottom: 39px;
             border-radius: 50%;
             padding: 5px 10px;
-            background-color: var(--yellow_1);
-            color: black;
+            background-color:#ffc220;
         }
     }    
 }

@@ -1,37 +1,16 @@
-.item_product2 p, .price h4{
+.product_detail p, .price h4{
     color:#777777;
 }
-.itemprop, .select, .product_details, .product_detail, .evaluate, .bar{
+.select, .product_details, .product_detail, .bar{
     display: flex;
 }
 .container-fluid_body{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: auto;      
-    .product_details{
-        height: 100px;
-        text-align:center; 
-        flex-direction: row;
-        .box_details{
-            background:white;
-            box-shadow: 0px 0px 5px #b8b5b5;
-            padding:20px;
-            margin: 5px;
-            flex:1;
-        }
-    }
-    // #myimage{
-    //     z-index:1;
-    // }
-    .product_detail{ 
-        text-align:center; 
-        flex-direction: row;
-        .box_detail{
-            background:white;
-            box-shadow: 0px 0px 5px #b8b5b5;
-            padding:20px;
-            margin: 5px;
-            flex:1;
-        }
+}
+    .item_detail{
+        margin-top: 40px;
     }
     .About_details{
         ul{
@@ -44,87 +23,11 @@
         border-collapse: collapse;
         width: 100%;
       }
-      
       td, th {
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
-      }
-      
+      }     
       tr:nth-child(even) {
         background-color: #dddddd;
-      }
-      .evaluate{
-          flex-direction: row;
-          text-align:center; 
-          padding-top:30px;
-          margin-bottom: 60px;
-          span{              
-            font-size:30px;
-            font-weight: 500;               
-        }
-          .ratings{
-            flex:3; 
-            border-right: 1px solid rgb(202, 195, 195); 
-            .icon_start{
-                font-size: 14px;
-            }                  
-          }
-          .recommended {
-              flex:4;
-          }
-          .number-start{
-            border-right: 1px solid rgb(202, 195, 195); 
-              flex:7;
-              .Rating_scale{
-                border-radius: 8px;
-                .bar{
-                    width: 100%;
-                    .my_skill{
-                        text-align: right;
-                        height: 5px;
-                        margin: 10px 9px;
-                        border-radius: 14px;
-                        padding:4px;
-                        background:#19a1c4;
-                    }
-                    .start_5{
-                        width: 70%;
-                    }
-                    .start_4{
-                        width: 60%;
-                    }
-                    .start_3{
-                        width: 20px;
-                    }
-                    .start_2{
-                        width: 5%;
-                    }
-                    .start_1{
-                        width: 10%;
-                    }            
-                }
-              }
-          }
-          .write_review{
-            text-align:left; 
-              flex: 7;
-                button{
-                    outline: none;
-                    cursor: pointer;
-                    background-color: #0071dc;
-                    margin-bottom:20px;
-                    color: white;
-                    padding: 15px;
-                    border-radius: 20px;
-                    font-weight:800;
-                    margin-left: 20px;
-                    border: 1px solid  #0071dc;
-                    &:hover {
-                        background: none;
-                        color:#0071dc;
-                    }
-                }
-          }
-      }
-}
+      }     

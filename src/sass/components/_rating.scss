@@ -1,0 +1,106 @@
+.rating_product{
+    padding-top:30px;
+    .evaluate{      
+        display:flex;
+        flex-direction: row;
+        text-align:center; 
+        padding-top:30px;
+        padding-bottom: 60px;
+        span{              
+          font-size:30px;
+          font-weight: 500;                     
+      }
+      .evaluate-number{
+        display:flex;
+        margin-right: 30px;
+      }  
+        .ratings{
+          color:black;
+          border-right: 1px solid rgb(202, 195, 195); 
+          padding:0 50px;
+          .icon_start{
+              font-size: 10px;
+          }                  
+        }
+        .recommended {
+            padding:0 50px;
+            border-right: 1px solid rgb(202, 195, 195); 
+        }
+        .number-start{
+          border-right: 1px solid rgb(202, 195, 195); 
+            flex:7;
+            .Rating_scale{
+              border-radius: 8px;
+              p{
+                  font-size:15px;
+              }
+              .bar{
+                  width: 100%;
+                  .my_skill{
+                      text-align: right;
+                      height: 5px;
+                      margin: 10px 9px;
+                      border-radius: 14px;
+                      padding:4px;
+                      background:#19a1c4;
+                  }
+                  .start_5{
+                      width: 70%;
+                  }
+                  .start_4{
+                      width: 60%;
+                  }
+                  .start_3{
+                      width: 20px;
+                  }
+                  .start_2{
+                      width: 5%;
+                  }
+                  .start_1{
+                      width: 10%;
+                  }            
+              }
+            }
+        }
+    }
+}
+@media (max-width: 1024px){
+        .Rating_scale{
+            .bar{
+                p{
+                    font-size:8px;
+                }
+            }    
+        }
+}
+@media (max-width:768px){
+    .rating_product{
+        margin-left: 30px;
+        .evaluate{    
+            display: flex;
+            flex-direction: column;
+            .evaluate-number{
+                display: flex;
+                margin-bottom: 50px;
+            }           
+            .icon_start i{
+                font-size:8px;
+            }
+            .recommended p{
+                font-size:13px;
+            }
+        }    
+    }
+    .write_review{
+        position: relative;
+        right: 70px;
+        margin-top: 30px;
+        display: flex;
+    }
+}
+@media (max-width: 500px){
+    .rating_product{
+        position: relative;
+        top: 50px;
+    }
+}

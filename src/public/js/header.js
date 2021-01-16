@@ -1,4 +1,3 @@
-// menu
 function openNav() {
     document.getElementById("mySidenav").style.width = "328px"; 
     document.getElementById("body").style.opacity = "0.2";
@@ -22,7 +21,6 @@ function openNav() {
     document.body.style.overflow = "auto";
   }
 
-
   $(document).ready(function(){
     $(window).scroll(function(){
       if(this.scrollY > 20){
@@ -30,4 +28,13 @@ function openNav() {
       }
     })
   });
+// ------------banner---------------
+  var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+    },
+  });
+
+
   

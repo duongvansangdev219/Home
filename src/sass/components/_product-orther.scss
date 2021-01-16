@@ -7,7 +7,6 @@
         color:black
     }
     .body_top {
-        margin-top:30px;
         display:flex;
         flex-wrap: wrap; 
         height: 400px;            
@@ -32,76 +31,16 @@
             }
         }           
     }
-    .itemprop {
-        flex-wrap: wrap; 
-        height: auto; 
-        line-height: 30px;
-        .itemprop_text{
-            flex: 1 100%;
+}        
+@media (max-width: 471px){
+    #block_5{
+        display: none;
+    }
+    .body .body_top{
+        position: relative;
+        top: 100px;
+        h2{
+            font-size:15px;
         }
-        .item_product {
-            flex:2;       
-        }
-        .item_product1 {
-            flex:13; 
-            position: relative;            
-        }
-        .item_product2 {
-            flex:16;   
-            h2{
-                font-weight:700
-            }    
-            .icon_start{
-                p{
-                    font-size: 16px;
-                }
-            }
-            .price{
-                display: inline-flex;
-                h4{
-                    text-decoration: line-through;
-                    margin:22px 17px;
-                } 
-            }
-            .select{
-                select{
-                    padding:15px;
-                }
-                button{
-                    margin-left: 20px;
-                    border: 1px solid blue;
-                    background:blue;
-                    padding: 10px 30px;
-                    border-radius: 20px;
-                    color:var(--light);
-                    outline: none;
-                    box-shadow: 0 9px #999;
-                    &:hover {
-                        background:rgb(86, 86, 241);
-                    }
-                    &:active {
-                        box-shadow: 0 5px #666;
-                        transform: translateY(4px);
-                    }
-                }
-            }
-            .protection{
-                margin-top:40px;
-                border-left:4px solid rgb(25, 161, 196);
-                .button{
-                    line-height:0px;
-                    h4{
-                        font-weight: 700;
-                        padding-left:10px;
-                        span{
-                            font-weight: 400;
-                        }                       
-                    }                   
-                }
-                span{
-                    padding-left:10px;
-                }
-            }
-        }
-    }        
+    }
 }
